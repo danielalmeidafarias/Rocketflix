@@ -1,0 +1,32 @@
+1. node getIDs.js
+    - pega a lista de ids do TMBD e converte cada linha em um arquivo json
+
+2. npx prisma migrate dev --name init
+    - faz a conexão do prisma com o banco de dados
+
+3. npx ts-node script.ts
+    - manda os dados do arquivo "output.json" para o banco de dados
+    
+
+4. npm start
+    - Inicia a API na porta 5000 do localhost
+        
+    * localhost:5000/api
+        - Lista de todos od IDs do banco
+    * localhost:5000/api/random
+        - ID aleatório do banco 
+    
+-------------------------------------------------------------------------------------
+
+https://api.themoviedb.org/3/movie/ID?api_key=API Key
+
+API Key = 3657362f00272f0509627f4dfe7e5d01
+
+
+--url 'https://api.themoviedb.org/3/movie/ID' \
+--header 'Authorization: Bearer Api Read Acces Token
+
+API Read Access Token = eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzNjU3MzYyZjAwMjcyZjA1MDk2MjdmNGRmZTdlNWQwMSIsInN1YiI6IjY0YTYxOGM2Y2FlNjMyMDExZmEyY2EyNyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.GWCoOFRyQYjAmV90XYZZrz4DF6PyG0y-XDBpHa2PRcA
+
+--------------------------------------------------------------------------------------
+
