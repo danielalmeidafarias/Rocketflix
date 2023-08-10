@@ -15,18 +15,3 @@
         - Lista de todos od IDs do banco
     * localhost:5000/api/random
         - ID aleatório do banco 
-    
--------------------------------------------------------------------------------------
-
-https://api.themoviedb.org/3/movie/ID?api_key=API Key
-
-API Key = 3657362f00272f0509627f4dfe7e5d01
-
-
---url 'https://api.themoviedb.org/3/movie/ID' \
---header 'Authorization: Bearer Api Read Acces Token
-
-API Read Access Token = eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzNjU3MzYyZjAwMjcyZjA1MDk2MjdmNGRmZTdlNWQwMSIsInN1YiI6IjY0YTYxOGM2Y2FlNjMyMDExZmEyY2EyNyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.GWCoOFRyQYjAmV90XYZZrz4DF6PyG0y-XDBpHa2PRcA
-
---------------------------------------------------------------------------------------
-
