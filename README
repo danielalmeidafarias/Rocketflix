@@ -3,19 +3,18 @@ Api feita para pegar os ID's de uma lista de json disponibilizados e atualizados
 A api faz a leitura desse arquivo e manda cada id para o banco de dados.
 Com esses id's é possível acessar todas as informações disponibilizadas pelo TMDB.
 
-1. Conexão com banco de dados pelo arquivo .env
-
-2. node getIDs.js
+## Conexão com banco de dados pelo arquivo .env
+## node getIDs.js
     - pega a lista de ids do TMBD e converte cada linha em um arquivo json
 
-3. npx prisma migrate dev --name init
+## npx prisma migrate dev --name init
     - faz a conexão do prisma com o banco de dados
 
-4. npx ts-node script.ts
+## npx ts-node script.ts
     - manda os dados do arquivo "output.json" para o banco de dados
     
 
-5. npm start
+## npm start
     - Inicia a API na porta 5000 do localhost
         
     * localhost:5000/api
@@ -25,6 +24,6 @@ Com esses id's é possível acessar todas as informações disponibilizadas pelo
 
 # No frontEnd
 
-1. npm run dev
+## npm run dev
     -Inicia a aplicação na porta 5173
     - Ao clicar no botão randomico sera obtido um id aleatório e as informações do filme
