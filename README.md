@@ -4,6 +4,8 @@ Api feita para pegar os ID's de uma lista de json disponibilizados e atualizados
 A api faz a leitura desse arquivo e manda cada id para o banco de dados.
 Com esses id's é possível acessar todas as informações disponibilizadas pelo TMDB.
 
+https://github.com/danielalmeidafarias/Rocketflix/assets/79728041/1bf43ec5-fb75-47eb-9aff-bf5895439124
+
 ## Conexão com banco de dados pelo arquivo .env
 ## node getIDs.js
     - pega a lista de ids do TMBD e converte cada linha em um arquivo json
